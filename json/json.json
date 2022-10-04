@@ -1,1 +1,17 @@
-[ first, second, third, fourth, fifth ]
+[
+    {
+        "id": "1",
+        "firstName": "John",
+        "lastName": "Doe"
+    },
+    {
+        "id": "2",
+        "firstName": "Mary",
+        "lastName": "Peterson"
+    },
+    {
+        "id": "3",
+        "firstName": "George",
+        "lastName": "Hansen"
+    }
+]

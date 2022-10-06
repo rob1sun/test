@@ -24,7 +24,7 @@
 .flex-item {
   width: 15vw;
   min-width: 150px;
-  height: 19vw;
+  height: 18vw;
   min-height: 200px;
   
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
@@ -34,14 +34,19 @@
 
   color: dark-gray;
   font-weight: normal;
-  font-size: 1.0rem;
+  font-size: 1.5rem;
   text-align: center;
 }
 .flex-item-img {
   max-width:100%;height:auto;
   min-width: 100%;
+  margin-top: 5px;
 }
 
+.flex-item-link a {
+	display:flex;
+	width:100%;
+}
 
 li:hover {
 	font-weight: bold;

@@ -1,4 +1,4 @@
-	//Läs in IdP EntityID från json
+//Läs in IdP EntityID från json
                 fetch('https://robertsundin.se/json/idpentityid.json')
             .then(function (idpResponse) {
                 return idpResponse.json();
@@ -25,15 +25,15 @@ function appendIdpData(idpData) {
             .catch(function (err) {
                 console.log('error: ' + err);
             });
-			//Append json och nästla efterföljande script
+//Append json och nästla efterföljande script
         function appendSpData(spData) {
 			
             for (let x = 0; x < spData.length; x++) {
 				let concLink = spData[x].spLink + idp + spData[x].spTarget;
 				let spDisplayName = spData[x].spDisplayName
+				let spImg = spData[x].spImg
 				
-
-
+//Skapa lista och infoga på sida
 const dFrag = document.createDocumentFragment();
 //for (let x in concLink) {				
 const li = document.createElement('li');
@@ -41,23 +41,16 @@ const li = document.createElement('li');
   li.textContent = spDisplayName;
   const a = document.createElement('a');
   a.className = "flex-item-link";
-  //a.textContent = spDisplayName;
   a.setAttribute('href', concLink);
   const img = document.createElement('img');
   img.className = "flex-item-img";
   img.textContent = concLink;
   //Just nu hårdkodad till en bild
-  img.setAttribute('src', "./img/skolfed.jpg");
+  img.setAttribute('src', spImg);
   
   dFrag.appendChild(li);
   li.appendChild(a);
   a.appendChild(img);
   
   document.getElementById('spList').appendChild(dFrag);
-
-//
-				var mainContainer = document.getElementById("myData");
-                var div = document.createElement("div");
-                div.innerHTML = concLink;
-                mainContainer.appendChild(div);
 }}}

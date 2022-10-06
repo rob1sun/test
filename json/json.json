@@ -1,17 +1,17 @@
 [
     {
-        "id": "1",
-        "firstName": "John",
-        "lastName": "Doe"
+        "spDisplayName": "Skolfederation",
+        "spLink": "John",
+        "spTarget": "Doe"
     },
     {
-        "id": "2",
-        "firstName": "Mary",
-        "lastName": "Peterson"
+        "spDisplayName": "Skolverket",
+        "spLink": "Mary",
+        "spTarget": "Peterson"
     },
     {
-        "id": "3",
-        "firstName": "George",
-        "lastName": "Hansen"
+        "spDisplayName": "DN",
+        "spLink": "George",
+        "spTarget": "Hansen"
     }
 ]

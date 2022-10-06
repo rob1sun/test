@@ -1,57 +1,78 @@
 <!DOCTYPE html>
-<html>
 <head>
-<meta charset="UTF-8">
-<meta name="author" content="Robert Rhudin Sundin">
-<title>Min skolportal</title>
-<link rel="icon" type="image/x-icon" href="favicon.ico">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link rel="stylesheet" href="css/css.css">
 </head>
+
+<html>
 <body>
-
-<div class="top-div">
-<h1>Min skolportal</h1>
-
-</div>
-
-<ul class="flex-container wrap">
-
-  <li class="flex-item">
-  <a href="http://dn.se" target="blank">
-  <img class="flex-item-img" src="img/dn.png">
-  </a>Dagens Nyheter<br><sub><i>standardlänk</i></sub></li>
-  
-      <li class="flex-item">
-  <a href="https://sp.trial.skolfederation.swefed.se/" target="blank">
-  <img class="flex-item-img" src="img/skolfed.jpg">
-  </a>Skolfederation<br><sub><i>standardlänk</i></sub></li>
-  
-    <li class="flex-item">
-  <a href="https://fidustest.skolverket.se/index.html" target="blank">
-  <img class="flex-item-img" src="img/skolverket.jfif">
-  </a>Skolverket<br><sub><i>standardlänk</i></sub></li>
-  
-    <li class="flex-item">
-  <a href="https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php" target="blank">
-  <img class="flex-item-img" src="img/skolfed.jpg">
-  </a>Skolfederation<br><sub><i>portallänk</i></sub></li>
-  
-    <li class="flex-item">
-  <a href="https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=https%3A%2F%2Fidp.trial.skolfederation.swefed.se%2Fsimplesaml%2Fsaml2%2Fidp%2Fmetadata.php&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure" target="blank">
-  <img class="flex-item-img" src="img/skolverket.jfif">
-  </a>Skolverket<br><sub><i>portallänk</i></sub></li>
-  
-  <li class="flex-item">2</li>
-  <li class="flex-item">3</li>
-  <li class="flex-item">4</li>
-  <li class="flex-item">5</li>
-  <li class="flex-item">6</li>
-  <li class="flex-item">7</li>
-  <li class="flex-item">8</li>
+<h1>Fedportal</h1>
+<div id="myData">
+<ul id="spList" class="flex-container wrap">
 </ul>
 
+<script>
+	//Läs in IdP EntityID från json
+                fetch('https://robertsundin.se/json/idpentityid.json')
+            .then(function (idpResponse) {
+                return idpResponse.json();
+            })
+            .then(function (idpData) {
+                appendIdpData(idpData);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
 
+//Append json och nästla efterföljande script
+function appendIdpData(idpData) {
+			const idp = idpData.idpEntityId;
+			
+		//Läs in SP-array från json
+		fetch('https://robertsundin.se/json/splink.json')
+            .then(function (spResponse) {
+                return spResponse.json();
+            })
+            .then(function (spData) {
+                appendSpData(spData);
+            })
+            .catch(function (err) {
+                console.log('error: ' + err);
+            });
+			//Append json och nästla efterföljande script
+        function appendSpData(spData) {
+			
+            for (let x = 0; x < spData.length; x++) {
+				let concLink = spData[x].spLink + idp + spData[x].spTarget;
+				
+
+
+const dFrag = document.createDocumentFragment();
+//for (let x in concLink) {				
+const li = document.createElement('li');
+  li.className = "flex-item";
+  const a = document.createElement('a');
+  a.className = "flex-item-link";
+  //a.textContent = concLink;
+  a.setAttribute('href', concLink);
+  const img = document.createElement('img');
+  img.className = "flex-item-img";
+  img.textContent = concLink;
+  //Just nu hårdkodad till en bild
+  img.setAttribute('src', "./img/skolfed.jpg");
+  
+  dFrag.appendChild(li);
+  li.appendChild(a);
+  a.appendChild(img);
+  
+  document.getElementById('spList').appendChild(dFrag);
+
+
+				var mainContainer = document.getElementById("myData");
+                var div = document.createElement("div");
+                div.innerHTML = concLink;
+                mainContainer.appendChild(div);
+}}}
+</script>
 
 </body>
 </html>

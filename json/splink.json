@@ -13,8 +13,26 @@
     },
     {
         "spDisplayName": "DN",
-        "spLink": "George",
-        "spTarget": "Hansen",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
+        "spImg": "./img/dn.png"
+    },
+    {
+        "spDisplayName": "Skolfederation",
+        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
+        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
+        "spImg": "./img/skolfed.jpg"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
+        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
+        "spImg": "./img/skolverket.jfif"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
         "spImg": "./img/dn.png"
     }
 ]

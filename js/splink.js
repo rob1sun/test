@@ -45,7 +45,6 @@ const li = document.createElement('li');
   const img = document.createElement('img');
   img.className = "flex-item-img";
   img.textContent = concLink;
-  //Just nu hårdkodad till en bild
   img.setAttribute('src', spImg);
   
   dFrag.appendChild(li);

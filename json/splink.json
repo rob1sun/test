@@ -1,0 +1,17 @@
+[
+    {
+        "spDisplayName": "Skolfederation",
+        "spLink": "John",
+        "spTarget": "Doe"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "Mary",
+        "spTarget": "Peterson"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "George",
+        "spTarget": "Hansen"
+    }
+]

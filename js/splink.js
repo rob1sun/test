@@ -38,7 +38,7 @@ const dFrag = document.createDocumentFragment();
 //for (let x in concLink) {				
 const li = document.createElement('li');
   li.className = "flex-item";
-//  li.textContent = spDisplayName;
+  li.textContent = spDisplayName;
   const a = document.createElement('a');
   a.className = "flex-item-link";
   a.setAttribute('href', concLink);

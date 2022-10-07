@@ -13,7 +13,7 @@
         "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
         "spImg": "https://robertsundin.se/img/skolverket.jfif",
         "spFul": "https://www.skolfederation.se/teknisk-information/",
-        "spMellan": "https://fidustest.skolverket.se/login/"
+        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
     },
     {
         "spDisplayName": "DN",

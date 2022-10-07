@@ -13,15 +13,15 @@
         "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
         "spImg": "https://robertsundin.se/img/skolverket.jfif",
         "spFul": "https://www.skolfederation.se/teknisk-information/",
-        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login/"
+        "spMellan": "https://fidustest.skolverket.se/login/"
     },
     {
         "spDisplayName": "DN",
         "spLink": "Dagens",
         "spTarget": "Nyheter",
         "spImg": "https://robertsundin.se/img/dn.png",
-        "spFul": "https://www.skolfederation.se/teknisk-information/",
-        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+        "spFul": "dn",
+        "spMellan": "dn"
     },
     {
         "spDisplayName": "Skolfederation",

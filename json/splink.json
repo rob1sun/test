@@ -3,7 +3,7 @@
         "spDisplayName": "Skolfederation",
         "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
         "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
-        "spImg": "./img/skolfed.jpg",
+        "spImg": "https://robertsundin.se/img/skolfed.jpg",
         "spFul": "https://www.skolfederation.se/teknisk-information/",
         "spMellan": "https://sp.trial.skolfederation.swefed.se/"
     },

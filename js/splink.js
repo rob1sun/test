@@ -44,7 +44,6 @@ const li = document.createElement('li');
   a.setAttribute('href', concLink);
   const img = document.createElement('img');
   img.className = "flex-item-img";
-  img.textContent = concLink;
   img.setAttribute('src', spImg);
   
   dFrag.appendChild(li);

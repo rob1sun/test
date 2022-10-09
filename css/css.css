@@ -44,7 +44,6 @@
 
 li:hover {
 	font-weight: bold;
-	background-color: gray;
   animation: shake 0.2s;
   animation-iteration-count: 1;
 }

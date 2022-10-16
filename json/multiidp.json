@@ -1,18 +1,12 @@
 [
     {
-        "spDisplayName": "Skolfederation",
-        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
-        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
-        "spImg": "https://robertsundin.se/img/skolfed.jpg",
-        "spFul": "https://www.skolfederation.se",
-        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+        "idpDisplayName": "Skolfederation",
+        "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
     },
     {
-        "spDisplayName": "Skolverket",
-        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
-        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
-        "spImg": "https://robertsundin.se/img/skolverket.jfif",
-        "spFul": "https://fidustest.skolverket.se/",
-        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
+        "idpDisplayName": "Testorganisation",
+        "idpEntityId": "https://testorganisation.se/testidp",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
     }
   ]

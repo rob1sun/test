@@ -42,6 +42,7 @@ const li = document.createElement('li');
   const a = document.createElement('a');
   a.className = "flex-item-link";
   a.setAttribute('href', concLink);
+  a.target = "_blank";
   const img = document.createElement('img');
   img.className = "flex-item-img";
   img.setAttribute('src', spImg);

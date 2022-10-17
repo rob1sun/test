@@ -6,7 +6,7 @@
     },
     {
         "idpDisplayName": "Testorganisation",
-        "idpEntityId": "https://testorganisation.se/testidp",
+        "idpEntityId": "https://testorganisation.se/testidp/",
         "idpImg": "https://robertsundin.se/img/skolfed.jpg"
     }
   ]

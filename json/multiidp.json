@@ -5,6 +5,11 @@
         "idpImg": "https://robertsundin.se/img/skolfed.jpg"
     },
     {
+        "idpDisplayName": "Googleskolfed",
+        "idpEntityId": "https://accounts.google.com/o/saml2?idpi",
+        "idpImg": "https://robertsundin.se/img/googleskolfed.jpg"
+    },
+    {
         "idpDisplayName": "Testorganisation",
         "idpEntityId": "https://testorganisation.se/testidp/",
         "idpImg": "https://robertsundin.se/img/skolfed.jpg"

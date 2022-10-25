@@ -28,5 +28,65 @@
         "idpDisplayName": "Testorganisation",
         "idpEntityId": "https://testorganisation.se/testidp/",
         "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+        {
+        "idpDisplayName": "Skolfederation",
+        "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Googleskolfed",
+        "idpEntityId": "https://accounts.google.com/o/saml2?idpid=C04kmvohx",
+        "idpImg": "https://robertsundin.se/img/googleskolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Testorganisation",
+        "idpEntityId": "https://testorganisation.se/testidp/",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+        {
+        "idpDisplayName": "Skolfederation",
+        "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Googleskolfed",
+        "idpEntityId": "https://accounts.google.com/o/saml2?idpid=C04kmvohx",
+        "idpImg": "https://robertsundin.se/img/googleskolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Testorganisation",
+        "idpEntityId": "https://testorganisation.se/testidp/",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+        {
+        "idpDisplayName": "Skolfederation",
+        "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Googleskolfed",
+        "idpEntityId": "https://accounts.google.com/o/saml2?idpid=C04kmvohx",
+        "idpImg": "https://robertsundin.se/img/googleskolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Testorganisation",
+        "idpEntityId": "https://testorganisation.se/testidp/",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+        {
+        "idpDisplayName": "Skolfederation",
+        "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Googleskolfed",
+        "idpEntityId": "https://accounts.google.com/o/saml2?idpid=C04kmvohx",
+        "idpImg": "https://robertsundin.se/img/googleskolfed.jpg"
+    },
+    {
+        "idpDisplayName": "Testorganisation",
+        "idpEntityId": "https://testorganisation.se/testidp/",
+        "idpImg": "https://robertsundin.se/img/skolfed.jpg"
     }
   ]

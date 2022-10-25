@@ -13,7 +13,7 @@
         "idpDisplayName": "Testorganisation",
         "idpEntityId": "https://testorganisation.se/testidp/",
         "idpImg": "https://robertsundin.se/img/skolfed.jpg"
-    }
+    },
         {
         "idpDisplayName": "Skolfederation",
         "idpEntityId": "https://idp.trial.skolfederation.swefed.se/simplesaml/saml2/idp/metadata.php",

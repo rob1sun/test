@@ -94,5 +94,101 @@
         "spImg": "https://robertsundin.se/img/dn.png",
         "spFul": "dn",
         "spMellan": "dn"
+    },
+    {
+        "spDisplayName": "Skolfederation",
+        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
+        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
+        "spImg": "https://robertsundin.se/img/skolfed.jpg",
+        "spFul": "https://www.skolfederation.se",
+        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
+        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
+        "spImg": "https://robertsundin.se/img/skolverket.jfif",
+        "spFul": "https://fidustest.skolverket.se/",
+        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
+        "spImg": "https://robertsundin.se/img/dn.png",
+        "spFul": "dn",
+        "spMellan": "dn"
+    },
+   {
+        "spDisplayName": "Skolfederation",
+        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
+        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
+        "spImg": "https://robertsundin.se/img/skolfed.jpg",
+        "spFul": "https://www.skolfederation.se",
+        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
+        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
+        "spImg": "https://robertsundin.se/img/skolverket.jfif",
+        "spFul": "https://fidustest.skolverket.se/",
+        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
+        "spImg": "https://robertsundin.se/img/dn.png",
+        "spFul": "dn",
+        "spMellan": "dn"
+    },
+    {
+        "spDisplayName": "Skolfederation",
+        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
+        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
+        "spImg": "https://robertsundin.se/img/skolfed.jpg",
+        "spFul": "https://www.skolfederation.se",
+        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
+        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
+        "spImg": "https://robertsundin.se/img/skolverket.jfif",
+        "spFul": "https://fidustest.skolverket.se/",
+        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
+        "spImg": "https://robertsundin.se/img/dn.png",
+        "spFul": "dn",
+        "spMellan": "dn"
+    },
+   {
+        "spDisplayName": "Skolfederation",
+        "spLink": "https://sp.trial.skolfederation.swefed.se/simplesaml/module.php/core/as_login.php?AuthId=default-sp&saml:idp=",
+        "spTarget": "&ReturnTo=https://sp.trial.skolfederation.swefed.se/show_attributes.php",
+        "spImg": "https://robertsundin.se/img/skolfed.jpg",
+        "spFul": "https://www.skolfederation.se",
+        "spMellan": "https://sp.trial.skolfederation.swefed.se/"
+    },
+    {
+        "spDisplayName": "Skolverket",
+        "spLink": "https://fidustest.skolverket.se/Shibboleth.sso/Login?entityID=",
+        "spTarget": "&target=https%3A%2F%2Ffidustest.skolverket.se%2Fsecure",
+        "spImg": "https://robertsundin.se/img/skolverket.jfif",
+        "spFul": "https://fidustest.skolverket.se/",
+        "spMellan": "https://fidustest.skolverket.se/Shibboleth.sso/Login"
+    },
+    {
+        "spDisplayName": "DN",
+        "spLink": "Dagens",
+        "spTarget": "Nyheter",
+        "spImg": "https://robertsundin.se/img/dn.png",
+        "spFul": "dn",
+        "spMellan": "dn"
     }
 ]

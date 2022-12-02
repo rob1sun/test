@@ -1,5 +1,5 @@
 [
-  {"urlName": "DN", "url": "https://dn.se"},
-  {"urlName": "Aftonbladet", "url": "https://aftonbladet.se"},
-  {"urlName": "SVT", "url": "https://svt.se"}
+  {"urlName": "DN", "url": "https://dn.se", "urlDescription": "Nyheter från Dagens Nyheter"},
+  {"urlName": "Aftonbladet", "url": "https://aftonbladet.se", "urlDescription": "Nyheter från Aftonbladet"},
+  {"urlName": "SVT", "url": "https://svt.se", "urlDescription": "Nyheter från Sveriges Television"}
 ]
